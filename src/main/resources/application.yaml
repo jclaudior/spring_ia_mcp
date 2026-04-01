@@ -1,3 +1,16 @@
 spring:
   application:
     name: mcp
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+
+server:
+  port: 8082
+
+
+backend:
+  monoservices:
+    url: http://localhost:8081/mono_services/v1
+
