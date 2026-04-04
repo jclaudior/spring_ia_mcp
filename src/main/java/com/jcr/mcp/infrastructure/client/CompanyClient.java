@@ -5,8 +5,6 @@ import com.jcr.mcp.domain.model.PaginationCompanyDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import java.util.List;
-
 @Component
 public class CompanyClient implements CompanyClientPort {
 
