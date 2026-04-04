@@ -13,13 +13,8 @@ public class CompanyClient implements CompanyClientPort {
 
     private final WebClient webClient;
 
-    @Value("${backend.monoservices.url}")
-    private String baseUrl;
-
-    public CompanyClient(WebClient.Builder builder) {
-        this.webClient = builder
-                .baseUrl(baseUrl)
-                .build();
+    public CompanyClient(WebClient webClient) {
+        this.webClient = webClient;
     }
 
     @Override
