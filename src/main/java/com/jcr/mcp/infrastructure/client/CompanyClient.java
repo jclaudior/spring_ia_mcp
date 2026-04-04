@@ -2,7 +2,6 @@ package com.jcr.mcp.infrastructure.client;
 
 import com.jcr.mcp.application.adapter.out.client.CompanyClientPort;
 import com.jcr.mcp.domain.model.PaginationCompanyDTO;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
