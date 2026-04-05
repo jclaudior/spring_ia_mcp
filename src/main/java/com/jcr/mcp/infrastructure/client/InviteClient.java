@@ -3,7 +3,6 @@ package com.jcr.mcp.infrastructure.client;
 import com.jcr.mcp.application.adapter.out.client.InviteClientPort;
 import com.jcr.mcp.domain.model.CreateInviteRequestDTO;
 import com.jcr.mcp.domain.model.CreateInviteResponseDTO;
-import com.jcr.mcp.domain.model.PaginationCompanyDTO;
 import com.jcr.mcp.domain.model.PaginationInviteDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
