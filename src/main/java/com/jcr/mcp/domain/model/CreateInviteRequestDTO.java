@@ -6,16 +6,14 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.UUID;
-
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CompanyDTO {
-    @JsonProperty("id")
-    private String id;
+public class CreateInviteRequestDTO {
+    @JsonProperty("email")
+    private String email;
 
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("company")
+    private CompanyDTO company;
 }

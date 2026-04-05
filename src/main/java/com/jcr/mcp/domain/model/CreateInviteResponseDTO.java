@@ -12,10 +12,13 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CompanyDTO {
+public class CreateInviteResponseDTO {
     @JsonProperty("id")
     private String id;
 
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("email")
+    private String email;
+
+    @JsonProperty("company")
+    private CompanyDTO company;
 }
